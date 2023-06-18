@@ -1,0 +1,163 @@
+#pageContent {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+
+    #pageAbout {
+        font-size: 13px;
+        font-weight: 600;
+        width: 30%;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+        line-height: 1.6;
+
+        #pageName {
+            color: #f87c58;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+
+    #pageSkills {
+        width: 40%;
+        height: 60vh;
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        #skillContainer {
+            display: flex;
+            height: 95%;
+            width: 100%;
+            margin-top: 2.5%;
+
+            #skillList,
+            #skillContainer {
+                width: 30%;
+
+            }
+
+            #skillInfo {
+                width: 70%;
+                line-height: 1.6;
+            }
+
+            #skillList {
+                .selected {
+                    color: #f87c58;
+                    font-weight: bold;
+                }
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 5px;
+                    height: 40px;
+                    overflow: hidden;
+
+                    &:hover {
+                        color: #f87c58;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            #skillDescription {
+                height: 90%;
+                width: 100%;
+                padding: 2%;
+            }
+
+        }
+
+    }
+}
+
+#cv {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    overflow-y: scroll;
+
+    .cvSection {
+        margin-bottom: 15px;
+
+        .cvHeader, .cvSubHeader {
+            color: #f87c58;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .cvHeader {
+            font-size: 17px;
+        }
+        .cvSubHeader {
+            font-size: 15px;
+        }
+
+        .cvParagraph {
+            width: 60%;
+        }
+    }
+}
+
+#projects {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    #projectsIntro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        width: 80%;
+        height: 5%;
+        text-align: center;
+    }
+    .projectItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f87c58;
+        &:hover {
+            background-color: #f58c6f;
+        }
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 15%;
+        height: 20%;
+        padding: 5px;
+        overflow: hidden;
+        .projectHead {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            height: 15%;
+        }
+
+        .projectDesc {
+            height: 80%;
+            width: 100%;
+            display: flex;
+            padding-top: 5%;
+            font-weight: bold;
+        }
+    }
+}
