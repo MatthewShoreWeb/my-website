@@ -17,7 +17,8 @@ export default function HomePage() {
         bug: <><div className='paragraph'>I have experience using and managing bug management software as part of a large team and for my own projects. Whilst on placement, I used <span className='bold'>Fogbugz</span> to recieve cases raised
             by the companies support team. Sometimes I would send these cases back with my own feedback or raise my own cases when a new bug was identified. More recently, at my role at iCode,
             I am using <span className='bold'>Jira</span> to manage tasks and bugs alongside the backend developer. This has been an essential part of the softwares development as it allows for a much more efficient delivery.</div></>,
-        styling: <><div className='paragraph'>I have extensive experience using CSS for styling. I have used it for all front end development projects I have done. More recently, however, I like to use CSS preprocessors such as LESS and SASS
+        styling: <><div className='paragraph'>I have extensive experience using <span className='bold'>CSS</span> for styling. I have used it for all front end development projects I have done. More recently, however,
+            I like to use <span className='bold'>CSS</span> preprocessors such as <span className='bold'>LESS</span> and <span className='bold'>SASS </span>
             as I prefer the added functionality and usability that they provide. I have used <span className='bold'>SASS</span> at my current job as well as on personal projects such as this website.</div></>,
         git: `I have extensive experience using GIT both as part of a large team and for independent projects. Whilst I was on placement,
         the company used GIT for all of its version control. I had to ensure that my pull requests conformed to the companies standards. 
