@@ -78,9 +78,19 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div id='pageCurrent'>
-                <div className='bold'>Current Projects</div>
-                <div>Mobile App</div>
-                <div>Discord Game</div>
+                    <div className='bold' >Ongoing Projects</div>
+                    <div id='currentProjects'>
+                        <div className='currentProject'>
+                            <div className='projectTitle'>Commercial Mobile App</div>
+                            <div className='projectDesc'>I am currently working on expanding the mobile app I did for my dissertation. The goal is to add more usability features and eventually take it to market.</div>
+                            <div className='projectTech'>Tech Stack: React Native, Expo, Android Studio, MySQL</div>
+                        </div>
+                        <div className='currentProject'>
+                            <div className='projectTitle'>Discord Bot</div>
+                            <div className='projectDesc'>Currently I am working on integrating some existing APIs for a video game into a React front-end which is compatible with discord commands.</div>
+                            <div className='projectTech'>Tech Stack: React, Node JS, MySQL, Discord APIs</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
