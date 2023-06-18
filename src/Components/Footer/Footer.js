@@ -5,9 +5,9 @@ export default function Footer() {
     return (
         <div id='footer'>
             <div>
-                <div>matt.shore2@gmail.com</div>
+               <span className='bold'>matt.shore2@gmail.com</span>
                 <div>or</div>
-                <div>+44 7925605241</div>
+                <span className='bold'>+44 7925605241</span>
             </div>
         </div>
     )

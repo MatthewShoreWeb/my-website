@@ -53,30 +53,36 @@ export default function HomePage() {
                 and potentially allow me to gain experience in areas I have less experience in.
             </div>
 
-            <div id='pageSkills'>
-                <div className='bold'>Technical Skills</div>
-                <div id='skillContainer'>
-                    <div id='skillList'>
-                        <div onClick={(e) => { setSkill(skillDescs.testing); setCurrentSkill(e.target); }} className='selected'>Automated testing</div>
-                        <div onClick={(e) => { setSkill(skillDescs.bug); setCurrentSkill(e.target); }}>Bug management</div>
-                        <div onClick={(e) => { setSkill(skillDescs.styling); setCurrentSkill(e.target); }}>CSS / LESS / SCSS</div>
-                        <div onClick={(e) => { setSkill(skillDescs.git); setCurrentSkill(e.target); }}>Git / Version control</div>
-                        <div onClick={(e) => { setSkill(skillDescs.html); setCurrentSkill(e.target); }}>HTML5</div>
-                        <div onClick={(e) => { setSkill(skillDescs.js); setCurrentSkill(e.target); }}>JavaScript / Typescript</div>
-                        <div onClick={(e) => { setSkill(skillDescs.bug); setCurrentSkill(e.target); }}>Linux / Command Line</div>
-                        <div onClick={(e) => { setSkill(skillDescs.node); setCurrentSkill(e.target); }}>Node.js</div>
-                        <div onClick={(e) => { setSkill(skillDescs.python); setCurrentSkill(e.target); }}>Python</div>
-                        <div onClick={(e) => { setSkill(skillDescs.react); setCurrentSkill(e.target); }}>React JS</div>
-                        <div onClick={(e) => { setSkill(skillDescs.api); setCurrentSkill(e.target); }}>RESTful API</div>
-                        <div onClick={(e) => { setSkill(skillDescs.sql); setCurrentSkill(e.target); }}>SQL / MySQL</div>
-                        <div onClick={(e) => { setSkill(skillDescs.ui); setCurrentSkill(e.target); }}>UI design</div>
-                    </div>
-                    <div id='skillInfo'>
-                        <div id='skillDescription'>{skillDescription}</div>
+            <div id='pageContent'>
+                <div id='pageSkills'>
+                    <div className='bold'>Technical Skills</div>
+                    <div id='skillContainer'>
+                        <div id='skillList'>
+                            <div onClick={(e) => { setSkill(skillDescs.testing); setCurrentSkill(e.target); }} className='selected'>Automated testing</div>
+                            <div onClick={(e) => { setSkill(skillDescs.bug); setCurrentSkill(e.target); }}>Bug management</div>
+                            <div onClick={(e) => { setSkill(skillDescs.styling); setCurrentSkill(e.target); }}>CSS / LESS / SCSS</div>
+                            <div onClick={(e) => { setSkill(skillDescs.git); setCurrentSkill(e.target); }}>Git / Version control</div>
+                            <div onClick={(e) => { setSkill(skillDescs.html); setCurrentSkill(e.target); }}>HTML5</div>
+                            <div onClick={(e) => { setSkill(skillDescs.js); setCurrentSkill(e.target); }}>JavaScript / Typescript</div>
+                            <div onClick={(e) => { setSkill(skillDescs.bug); setCurrentSkill(e.target); }}>Linux / Command Line</div>
+                            <div onClick={(e) => { setSkill(skillDescs.node); setCurrentSkill(e.target); }}>Node.js</div>
+                            <div onClick={(e) => { setSkill(skillDescs.python); setCurrentSkill(e.target); }}>Python</div>
+                            <div onClick={(e) => { setSkill(skillDescs.react); setCurrentSkill(e.target); }}>React JS</div>
+                            <div onClick={(e) => { setSkill(skillDescs.api); setCurrentSkill(e.target); }}>RESTful API</div>
+                            <div onClick={(e) => { setSkill(skillDescs.sql); setCurrentSkill(e.target); }}>SQL / MySQL</div>
+                            <div onClick={(e) => { setSkill(skillDescs.ui); setCurrentSkill(e.target); }}>UI design</div>
+                        </div>
+                        <div id='skillInfo'>
+                            <div id='skillDescription'>{skillDescription}</div>
+                        </div>
                     </div>
                 </div>
+                <div id='pageCurrent'>
+                <div className='bold'>Current Projects</div>
+                <div>Mobile App</div>
+                <div>Discord Game</div>
+                </div>
             </div>
-
         </div>
     );
 };
