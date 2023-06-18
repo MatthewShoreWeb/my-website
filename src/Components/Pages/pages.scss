@@ -182,10 +182,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: #f87c58;
+        border: 2px solid #f87c58;
+        text-align: center;
 
         &:hover {
-            background-color: #f58c6f;
+            background-color: #f87c58;
         }
 
         border-radius: 10px;
