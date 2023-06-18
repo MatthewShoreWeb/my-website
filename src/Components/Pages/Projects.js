@@ -10,7 +10,7 @@ export default function Projects() {
     return (<div id='projects'>
         <div id='projectsIntro'>
             <div>
-                Here are some of the projects that I have completed either at university or after. They cover a wide range of computing topics. Click on one to find out more.
+                Here are some of the projects that I have completed either at university or after. They cover a wide range of computing topics. I am still in the process of adding more, so the list may not be complete.
             </div>
         </div>
         <div className='projectItem' onClick={() => { window.open(`http://www.matthewshore.co.uk/TeamYellowFinalReport.pdf`); }}>
